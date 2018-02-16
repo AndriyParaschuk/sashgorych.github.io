@@ -65,7 +65,7 @@ function setCheck(prop) {
     });
 }
 function searchByNames() {
-    let searchText =  searchInput.value.toLowerCase();
+    let searchText =  searchInput.value.toLowerCase().trim();
     let tdText;
     toArray(td).forEach(function (el) {
         tdText=el.innerHTML.toLowerCase();
